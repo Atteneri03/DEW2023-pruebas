@@ -1,7 +1,7 @@
 const Client = require('./client');
-// const Gazette = require('./gazette');
-// const Magazine = require('./magazine');
-// const Newspaper = require('./newspaper');
+ const Gazette = require('./gazette');
+ const Magazine = require('./magazine');
+ const Newspaper = require('./newspaper');
 
 test('Notificar publicación genérica (gratis)', () => {
   const user = new Client('Pepe');
